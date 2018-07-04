@@ -46,4 +46,9 @@ public class Game extends Observable
 	{
 		return map[i][j].getType();
 	}
+	
+	public Tile getTile(int i, int j)
+	{
+		return map[i][j];
+	}
 }
